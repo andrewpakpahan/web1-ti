@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning HTML Tables</title>
+</head>
+<body>
+    <h1>Students Data</h1>
+
+    <table border="1">
+        <tr>
+            <!-- This is the table header -->
+            <th>Num.</th>
+            <th colspan="2">NIM/Name</th>
+            <th>Status</th>
+            <th>Attendance</th>
+        </tr>
+        <tr>
+            <!-- This is a table data-->
+            <td>1.</td>
+            <td>123</td>
+            <td>Andrew</td>
+            <td rowspan="2">Inside</td>
+            <td>Present</td>
+        </tr>
+        <tr>
+            <!-- This is a table data-->
+            <td>2.</td>
+            <td>321</td>
+            <td>Budi</td>
+            <td>Absent</td>
+        </tr>
+        <tr>
+            <!-- This is a table data-->
+            <td>3.</td>
+            <td>321</td>
+            <td>Cici</td>
+            <td>Inside</td>
+            <td>Present</td>
+        </tr>
+        <tr>
+            <!-- This is a table data-->
+            <td>4.</td>
+            <td>456</td>
+            <td>Dodi</td>
+            <td>Inside</td>
+            <td rowspan="2">Present</td>
+        </tr>
+        <tr>
+            <!-- This is a table data-->
+            <td>5.</td>
+            <td>789</td>
+            <td>Edi</td>
+            <td>Outside</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th colspan="3">B</th>
+        </tr>
+        <tr>
+            <th rowspan="2">C</th>
+            <th>D</th>
+            <th>E</th>
+            <th rowspan="3">F</th>
+        </tr>
+        <tr>
+
+            <th>G</th>
+            <th rowspan="2">H</th>
+        </tr>
+        <tr>
+            <th colspan="2">I</th>
+        </tr>
+        <tr>
+            <th colspan="4">J</th>
+        </tr>
+    </table>
+
+</body>
+</html>
