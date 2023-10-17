@@ -38,13 +38,16 @@ nav li:hover {
     font-weight: bolder;
 }
 
-main {
-    margin-top: 20px;
+main img {
+    width: 100%;
+}
+
+#container {
     display: flex;
     justify-content: space-between;
 }
 
-main div {
+#container div {
     width: 30%;
     border: 1px solid #dedede;
     padding: 10px;
@@ -57,7 +60,7 @@ footer {
     text-align: center;
 }
 
-img {
+main div img {
     width: 220px;
     margin: 10px 0;
 }
