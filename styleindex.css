@@ -5,6 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
 header {
     padding: 20px;
     background-color: #cdcdcd;
@@ -34,10 +39,30 @@ nav li:hover {
 }
 
 main {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
 main div {
     width: 30%;
+    border: 1px solid #dedede;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #cdcdcd;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 220px;
+    margin: 10px 0;
+}
+
+h2 {
+    margin: 10px 0;
+    text-align: center;
 }
