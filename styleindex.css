@@ -38,6 +38,10 @@ nav li:hover {
     font-weight: bolder;
 }
 
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
 main img {
     width: 100%;
 }
